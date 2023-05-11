@@ -1,10 +1,10 @@
 import 'dart:ui';
 
-import 'package:flutter_math_fork/ast.dart';
-import 'package:flutter_math_fork/src/parser/tex/font.dart';
+import 'package:flutter_math_revisited/ast.dart';
+import 'package:flutter_math_revisited/src/parser/tex/font.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_math_fork/src/encoder/tex/encoder.dart';
+import 'package:flutter_math_revisited/src/encoder/tex/encoder.dart';
 
 void main() {
   group('style encoding test', () {
